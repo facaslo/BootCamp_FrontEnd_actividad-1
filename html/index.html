@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Resumen que muestra el buscador -->
+  <meta name="description" content="Una receta sencilla para empanadas">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="">
+  <title> Prueba </title>
+</head>
+<body>  
+
+  <header>
+    <h1>
+      El rincón culinario de Fabian
+    </h1>
+    <hr/>
+  </header>  
+  
+  <main>  
+
+    <div class="recipe_img">
+      <img src="../img/main-header.avif" alt="Unas deliciosas empanadas de carne">
+    </div>
+
+    <div class="content-box">  
+      <div class="section-title">
+        <h2>
+          Receta de empanadas
+        </h2>
+      </div>
+      
+      <div>
+        <h3>
+          Ingredientes    
+        </h3>
+      </div>
+      <div>
+        <ul>
+          <li> 2 tazas de harina de trigo </li>
+          <li> 1/2 taza de mantequilla fría, cortada en cubitos </li>
+          <li> 1/4 taza de agua fría </li>
+          <li> 1 huevo </li>
+          <li> Sal y pimienta al gusto </li>
+          <li> 1/2 kilo de carne picada (res o cerdo) </li>
+          <li>1 cebolla picada</li>
+          <li>2 dientes de ajo picados</li>    
+          <li>1/4 taza de alcaparras</li>
+          <li>1/4 taza de cilantro picado</li>
+          <li>1/2 taza de caldo de carne o agua</li>
+          <li>1/4 taza de harina de trigo</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content-box">  
+      <div>
+        <h3>
+          Preparación    
+        </h3>
+      </div>
+
+      <div>
+        <ol>
+          <li>En un tazón grande, mezcla la harina y la mantequilla con una espatula hasta que se forme una textura arenosa.</li>
+          <li>Agrega el agua fría, el huevo, la sal y la pimienta, y mezcla hasta formar una masa homogénea. Envuelve en plástico y refrigera durante 30 minutos.</li>
+          <li>Calienta una sartén a fuego medio-alto y añade la carne picada. Cocina hasta que esté bien cocida, luego agrega la cebolla, el ajo,las alcaparras y el cilantro.</li>
+          <li>Añade el caldo o el agua y un poco de harina de trigo a la carne, y cocina hasta que la mezcla espese. Deja enfriar.</li>
+          <li>Precalienta el horno a 375 grados F (190 grados C).</li>
+          <li>Estira la masa en una tabla de amasar con harina hasta que tenga el grosor deseado.</li>
+          <li>Con un cortador redondo o un vaso, corta la masa en círculos.</li>
+          <li>Añade el relleno de carne en el centro de cada círculo de masa.</li>
+          <li>Pincela los bordes de los círculos con agua y dobla la masa para formar una media luna, sellando los bordes.</li>
+          <li>Pon las empanadas en una bandeja para hornear engrasada y pincela con huevo batido.</li>
+          <li>Hornea durante 20-25 minutos o hasta que estén doradas y cocidas.</li>
+        </ol>
+      </div>    
+    
+      <div>
+        ¡Listo! Ahora tienes deliciosas empanadas de carne caseras. Puedes variar el relleno según tus preferencias o lo que tengas a mano.         
+      </div>   
+    </div>    
+
+    <div class="content-box"> Adicionalmente te dejamos un video con una receta alternativa, <a href="https://www.youtube.com/channel/UCc9POuZ0Z7d6IBc-PPl75Dw"> hecha por Sábados con Ariana </a> </div>
+    
+    <div class="video-content">
+      <iframe src="https://www.youtube.com/embed/7USKYXBbh3M" title="Receta de empanadas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="content-box">
+      Si deseas contactarte conmigo, por favor llena el siguiente formulario
+      <form class="contactMe" onsubmit="formSent()">
+
+        <div class="formField">
+          <label for="nameBox">
+            Nombre
+          </label>
+          <input required type="text" name="nameBox">
+        </div>
+
+        <div class="formField">
+          <label for="emailBox">
+            Correo Electronico
+          </label>
+          <input required type="email" name="emailBox" placeholder="correo@email.com">
+        </div>
+
+        <div class="formField">
+          <label for="inquireBox">
+            Duda o inquietud
+          </label>
+          <textarea required name="inquireBox" placeholder="Inserta tu duda aquí">                
+          </textarea>
+        </div>    
+
+        <div class="formField">
+          <input type="submit" value="Enviar"> 
+        </div>
+      </form>
+    </div>
+
+  </main>
+  <hr/>
+  <footer>
+    
+      <div>
+      El rincón culinario de Fabian
+      </div>
+      <div>
+      Cel de contacto : (+57)333 3333333
+      </div>
+      <div>
+      Email de contacto : email@email.com
+      </div>
+    
+  </footer>
+
+  <script>
+    function formSent(){
+      alert('¡Se ha enviado tu mensaje!');
+    }
+  </script>
+</body>
+</html>
